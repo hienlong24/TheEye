@@ -7,6 +7,6 @@ class Event(models.Model):
     category = models.CharField(max_length=1000)
     name = models.CharField(max_length=1000)
     info = models.JSONField()
-    time = models.DateTimeField(auto_now=True)
+    time = models.DateTimeField()
 
 
